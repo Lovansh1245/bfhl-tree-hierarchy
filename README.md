@@ -50,9 +50,9 @@ npm run dev:client
 ```json
 {
   "is_success": true,
-  "user_id": "lovansh_sharma_24042004",
-  "email_id": "lovansh.sharma@example.com",
-  "college_roll_number": "0827CS211130",
+  "user_id": "lovansh_tewatia_1245",
+  "email_id": "lt4750@srmist.edu.in",
+  "college_roll_number": "RA2311027010106",
   "hierarchies": [
     { "root": "A", "tree": { "A": { "B": { "D": {} }, "C": {} } }, "depth": 3 },
     { "root": "X", "tree": {}, "has_cycle": true }
