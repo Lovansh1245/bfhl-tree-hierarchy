@@ -1,0 +1,14 @@
+{
+  "name": "bfhl-fullstack",
+  "version": "1.0.0",
+  "description": "BFHL Tree Hierarchy Analyzer – Full-Stack Node.js/Express + React (Vite)",
+  "scripts": {
+    "dev:server": "cd server && npx nodemon index.js",
+    "dev:client": "cd client && npx vite",
+    "dev": "npx concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
